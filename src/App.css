@@ -1,0 +1,74 @@
+.App{
+  background-color: rgb(224, 216, 219);
+  min-height:400px;
+  width:400px;
+  margin:40px auto;
+  border-radius : 10px;
+}
+.input{
+  width: 180px;
+  height : 30px;
+  font-family : "calibri";
+  background-color: rgb(190, 183, 186);
+  padding : 0 20px;
+  margin : 20px;
+  font-size : 18px;
+  color:black;
+  border-radius:9px;
+  border:0px;
+}
+.input::placeholder{
+  color:white;
+  font-size : 20px;
+}
+.input:focus{
+  outline:none;
+}
+.inputButton{
+  color:black;
+  width:200x;
+  height:30px;
+  background-color:rgb(190, 183, 186);
+  margin:20px auto;
+  border-radius:5px;
+  font-size:20px;
+  cursor:pointer;
+}
+body{
+  background-color: rgb(247, 245, 246);
+}
+.list .App{
+  color:black;
+  width:200x;
+  height:30px;
+  background-color:rgb(190, 183, 186);
+  margin:20px auto;
+  border-radius:5px;
+  font-size:20px;
+  position:relative;
+}
+.listDelete{
+  color:black;
+  width:200x;
+  height:30px;
+  background-color:rgb(190, 183, 186);
+  margin:20px auto;
+  border-radius:5px;
+  font-size:20px;
+  position:relative;
+  left:80px;
+  cursor:pointer;
+}
+.filterButton{
+  color:black;
+  width:200x;
+  height:30px;
+  background-color:rgb(190, 183, 186);
+  margin:20px auto;
+  border-radius:5px;
+  font-size:20px;
+  position:relative;
+  left:80px;
+  cursor:pointer;
+  margin:8px;
+}
